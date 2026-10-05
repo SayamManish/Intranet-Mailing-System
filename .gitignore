@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Production build
+dist/
+build/
+
+# Environment variables — never commit real secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases (all variants)
+*.db
+*.sqlite
+*.sqlite3
+server/database/intranet.sqlite
+server/database/intranet.sqlite-shm
+server/database/intranet.sqlite-wal
+server/database/intranet.sqlite-journal
+
+# Uploaded user files — keep placeholder only
+server/uploads/*
+!server/uploads/.gitkeep
+
+# IDE & OS generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Windows batch shortcuts (optional – remove this block if you want them committed)
+# setup-firewall.bat
+# START-LAN-SERVER.bat
+# QUICK-START.bat
+

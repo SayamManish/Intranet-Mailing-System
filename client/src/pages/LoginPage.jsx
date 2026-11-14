@@ -110,11 +110,7 @@ export default function LoginPage() {
           </div>
         </div>
 
-        {/* Footer info */}
-        <div className="relative z-10 text-xs text-slate-400 flex items-center justify-between pt-6 border-t border-slate-800/60">
-          <span>Ethical Hacking Lab Security Project</span>
-          <span className="font-mono text-[11px]">Binding: 0.0.0.0</span>
-        </div>
+        
       </div>
 
       {/* Right Column: Modern Login Card */}
